@@ -61,6 +61,7 @@ img{
     display: flex;
     padding: 4em 15%;
     gap: 4em;
+    flex-wrap: wrap;
 }
 
 .hero .hero-left{
@@ -125,6 +126,9 @@ img{
     justify-content: space-around;
     align-items: center;
     gap: 3em;
+    max-width: auto;
+    flex-wrap: wrap;
+    flex: auto;
     
 }
 
